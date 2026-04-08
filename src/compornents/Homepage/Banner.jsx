@@ -1,0 +1,23 @@
+import React from 'react';
+import BookImg from '../../assets/bookVibe.png'
+const Banner = () => {
+    return (
+        <div>
+            <div className="hero bg-base-200 min-h-[70vh] rounded-2xl my-10 container mx-auto">
+  <div className="hero-content flex-col lg:flex-row-reverse w-full justify-between">
+    <img
+      src={BookImg}
+      className="max-w-sm rounded-lg"
+    />
+    <div>
+      <h1 className="text-5xl font-bold">Books to freshen up <br /> your bookshelf</h1>
+
+      <button className="btn btn-primary mt-4">View the List</button>
+    </div>
+  </div>
+</div>
+        </div>
+    );
+};
+
+export default Banner;
